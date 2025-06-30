@@ -1,0 +1,129 @@
+
+html{
+    height:90vh;
+}
+body{
+    font-family: 'Segoe UI', sans-serif;
+/* background: linear-gradient(90deg, #e0eafc, #5579ac); */
+
+background-image: url("https://tenor.com/view/nature-good-morning-nature-rain-raining-rainy-day-gif-1457679714789358327.gif");
+background-size: cover;
+backdrop-filter: blur(3px);
+
+
+}
+
+.container{
+    display:flex;
+    margin-top:-10px;
+margin-left:-9px;
+
+}
+.sidebar{
+    width:350px;
+   
+    background-color: rgb(219, 236, 250,0.8);
+    height: 110vh;
+    display:flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+    gap:12px;
+    border-radius: 0 20px 0 0px;
+    padding-top:60px;
+    padding-left:10px;
+    padding-right: 15px;
+}
+.location-info{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between ;
+   
+}
+#search{
+    height:25px;
+    width:170px;
+    border-radius: 5px;
+    border:1.5px solid rgb(141, 141, 141);
+}
+#search-btn{
+    height:29px;
+    width:60px;
+    border-radius: 5px;
+    border:1.5px solid rgb(159, 158, 158);
+}
+#location-btn{
+ height:28px;
+    width:200px;
+    border-radius: 5px;
+    border:1.5px solid rgb(141, 141, 141);
+    align-self:center;
+}
+#basic-info{
+    display:flex;
+    flex-direction: column;
+    font-size: large;
+    line-height: 16px;
+    /* align-self: flex-start; */
+    
+}
+#description{
+    font-size:14px;
+    color:grey;
+}
+p{
+    margin: 15px ;
+}
+#icon{
+    width:100px;
+    height:100px;
+    align-self:center;
+}
+.date-time{
+    height: 50px;
+    width:150px;
+    border: 1px solid grey;
+    background-color: rgb(192, 192, 192,0.3);
+    border-radius: 10px;
+    margin-top:10px;
+    text-align: center;
+    align-self: center
+    
+}
+.main-panel{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+.cards{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:70px;
+    justify-content: center;
+    flex-wrap:wrap;
+    padding-left:10%;
+}
+.card{
+    height:130px;
+    width:230px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: rgb(238, 242, 244,0.6);
+    margin-top:10px;
+    text-align: center;
+}
+.a{
+    font-size: 70px;
+    color:rgb(66, 66, 66);
+}
+.card:hover{
+    background-color:rgb(167, 224, 251,0.6);
+    transform: scale(1.04);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 1px 1px 10px rgb(181, 181, 181);
+}
