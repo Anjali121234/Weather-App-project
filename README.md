@@ -39,8 +39,12 @@ A simple and responsive **Weather Application** built using **HTML, CSS, and Jav
 ## 🔑 API Configuration
 
 This project uses the **OpenWeatherMap API**.
-
 apikey = "38e28c22b2e3a2ec32f2c8d6d14e1179";
+
+## 🔗 Live Demo
+
+👉 https://anjali121234.github.io/Weather-App-project/
+
 
 
 
