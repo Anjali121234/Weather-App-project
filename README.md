@@ -35,16 +35,13 @@ A simple and responsive **Weather Application** built using **HTML, CSS, and Jav
 2. Install **Live Server** extension
 3. Right-click `index.html` → **Open with Live Server**
 
-### Method 2: Open Directly
-- Double-click `index.html`  
-*(Note: Location access works best with Live Server)*
-
----
 
 ## 🔑 API Configuration
 
 This project uses the **OpenWeatherMap API**.
 
 apikey = "38e28c22b2e3a2ec32f2c8d6d14e1179";
+
+
 
 
